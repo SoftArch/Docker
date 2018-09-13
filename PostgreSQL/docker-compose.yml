@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  db:
+    image: postgres
+    environment: 
+      - POSTGRES_USER=PostgreDev # PostgrSql User Name
+      - POSTGRES_PASSWORD=Password1 # PostgrSql Password
+      - POSTGRES_DB=PostgreDev # PostgrSql Database Name
+    ports:
+      - "5432:5432"
+    volumes:
+      - "PgDb:/var/lib/postgresql/data"
+
+  dbadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pg@admin.com # pgadmin Email
+      - PGADMIN_DEFAULT_PASSWORD=Password1 # pgadmin Password
+    ports:
+      - "8080:80"
+    volumes:
+      - "PgAdmin:/var/lib/pgadmin"
+
+volumes:
+  PgDb: # Database Volume
+  PgAdmin: # Database Admin Volume
