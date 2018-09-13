@@ -1,10 +1,10 @@
 # Docker PostgreSQL
-Docker PostgreSQL Samples with PgAdmin
+PostgreSQL Samples with PgAdmin on Docker
 
 ![ScreenShot](https://github.com/SoftArch/Docker/blob/master/PostgreSQL/images/1.jpg)
 
-![ScreenShot](/images/2.jpg?raw=true "PgAdmin Creare Server Connection")
+![ScreenShot](https://github.com/SoftArch/Docker/blob/master/PostgreSQL/images/2.jpg)
 
-![ScreenShot](/images/3.jpg?raw=true "PgAdmin Create Server Connection Popup")
+![ScreenShot](/images/3.jpg)
 
-![ScreenShot](/images/4.jpg?raw=true "PgAdmin Create Server Connection Information")
+![ScreenShot](/images/4.jpg)
