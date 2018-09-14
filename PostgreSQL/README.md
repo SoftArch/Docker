@@ -8,7 +8,9 @@ Docker commands;
 
 PostgreSQL and PgAdmin files are stored on docker volumes so when stop docker container you not lose files and datas.
 
-#PgAdmin Screenshots
+
+
+# PgAdmin Screenshots
 
 Login
 
