@@ -4,7 +4,7 @@ PostgreSQL Samples with PgAdmin on Docker
 
 Docker commands;
 - docker-compose up : Start PostgreSQL and PgAdmin with docker volumes.
-- docker-compose dows : Dtop PostgreSQL and PgAdmin.
+- docker-compose down : Stop PostgreSQL and PgAdmin.
 
 PostgreSQL and PgAdmin files are stored on docker volumes so when stop docker container you not lose files and datas.
 
